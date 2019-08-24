@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+form{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+label{
+    display: block;
+    margin-bottom: .5%;
+}
+input, select,textarea{
+    margin-bottom: 2%;
+    width: 20vw;
+    height: 2.5vw;
+    background: white;
+    line-height: 2.5vw;
+}
+textarea{
+    height: 5vw;
+    resize: none;
+}
+input[type="radio"], input[type="checkbox"]{
+    width: auto;
+    height: auto;
+    margin-bottom: .6%;
+}
+span{
+    display: inline-block;
+    background: #00f7ff;
+    padding: .2% .5% .2% .5%;
+    margin-bottom: .3%;
+    border-radius: 10px;
+}
+.islam{
+    background: #4c49e9;
+}
