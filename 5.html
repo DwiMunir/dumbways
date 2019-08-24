@@ -1,0 +1,16 @@
+<script>
+        function drawline(string){
+                let str = string.split("");
+                let jml = str.length;
+                for (i = 0; i < jml; i++) {
+                        for (j = 0; j < i; j++) {
+                               document.write('&nbsp&nbsp&nbsp&nbsp');
+                                
+                        }
+                        document.write(str[i]+"<br>");
+                        
+                }
+        }
+
+        drawline("BOOTCAMP");
+</script>

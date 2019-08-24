@@ -1,0 +1,18 @@
+<script>
+    function check(datakey, word){
+        let jml_arr = datakey.length;
+        for (let i = 0; i < jml_arr; i++) {
+            let kata = word;
+            let data = datakey;
+            if(word.search(data[i])>=0){
+                document.write(data[i]+" = true <br>");
+            }else document.write(data[i]+" = false <br>");
+            
+        }
+        
+    }
+    let datakey =['out','stand','king','and'];
+    let word='outstanding';
+    check(datakey,word);
+
+</script>

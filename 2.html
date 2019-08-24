@@ -1,0 +1,34 @@
+<script>
+
+    // fungsi cek email
+    function cekEmail(email) {
+        let emailReg = /^([a-z\.]+@([a-z]+\.)+[a-z-]{2,4})?$/;
+            if(emailReg.test( email )){
+                document.write("Email Valid <br>");
+            }else document.write(' Password Invalid<br>');
+    }
+
+ cekEmail('hayo.sapa@gmail.com');
+
+//   fungsi cek password
+function cekPassword(pass){
+    let passReg = /^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])[a-zA-Z0-9]{6,}$/;
+    if(passReg.test(pass)){
+        document.write('Password valid<br>');
+    }else{
+        document.write('Password Invalid<br>');
+    }
+}
+
+cekPassword('Kamuakukita123');
+
+// fungsi username
+function cekUsername(user){
+    let userReg = /^(?=.*[a-z])[a-z]{8,}$/;
+    if(userReg.test(user)){
+        document.write('Username Valid <br>');
+    } else document.write('Username Invalid<br>');
+}
+
+cekUsername('kbrtanjung');
+</script>
